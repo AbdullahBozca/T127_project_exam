@@ -75,6 +75,7 @@ public class Islemler {
         } else {
             System.out.println(silinecekKitapNo + " NOLU KİTAP YOKTUR...");
         }
+        scanner.nextLine(); // dummy
     }
 
     public void tumKitaplariListele() {
